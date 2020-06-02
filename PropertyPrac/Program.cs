@@ -10,6 +10,9 @@ namespace PropertyPrac
     {
         static void Main(string[] args)
         {
+            box luckybox = new box(10, 10);
+            luckybox.Area();
+            luckybox.width = -10;
         }
     }
 }
